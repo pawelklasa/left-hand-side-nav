@@ -13,14 +13,13 @@ body {
     'menu footer footer';  
 }
 
-
-
 .header {
   grid-area: header;
   background-color: #1e2023;
 }
 
 .content {
+  padding: 60px;
   grid-area: content;
   background-color: #eff2f9;
 }
