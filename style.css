@@ -44,6 +44,7 @@ body {
 .menu-icon {
   text-align: center;
   margin-top: 20px;
+  width: 60px;
 }
 
 .github {
@@ -57,6 +58,7 @@ body {
   text-align: center;
   position: relative;
   top: 35%;
+  width: 60px;
 }
 
 .vert {
