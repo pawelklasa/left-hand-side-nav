@@ -22,7 +22,7 @@ body {
 
 .content {
   grid-area: content;
-  background-color: #17191d;
+  background-color: #eff2f9;
 }
 
 .footer {
@@ -34,10 +34,12 @@ body {
 /* side menu styling */
 
 .menu {
+  border-right: 1px solid #ddd;
   grid-area: menu;
   width: 60px;
   background-color: #f3f9ff;
   height: 100vh;
+  z-index: 2;  
 }
 
 .menu-icon {
