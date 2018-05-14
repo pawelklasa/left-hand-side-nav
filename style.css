@@ -13,16 +13,15 @@ body {
     'menu footer footer';  
 }
 
-
-
 .header {
   grid-area: header;
   background-color: #1e2023;
 }
 
 .content {
+  padding: 60px;
   grid-area: content;
-  background-color: #17191d;
+  background-color: #eff2f9;
 }
 
 .footer {
@@ -34,15 +33,18 @@ body {
 /* side menu styling */
 
 .menu {
+  border-right: 1px solid #ddd;
   grid-area: menu;
   width: 60px;
   background-color: #f3f9ff;
   height: 100vh;
+  z-index: 2;  
 }
 
 .menu-icon {
   text-align: center;
   margin-top: 20px;
+  width: 60px;
 }
 
 .github {
@@ -56,6 +58,7 @@ body {
   text-align: center;
   position: relative;
   top: 35%;
+  width: 60px;
 }
 
 .vert {
@@ -64,3 +67,4 @@ body {
   margin: 0px;
   transform: rotate(270deg);
 }
+
